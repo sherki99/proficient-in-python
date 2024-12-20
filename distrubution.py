@@ -1,3 +1,7 @@
-if 1:
-    # perche bella 
-    print("bella")
+
+
+if("hello"):
+    True
+
+def my_function(): 
+    print("2")
