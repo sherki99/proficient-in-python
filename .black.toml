@@ -1,0 +1,10 @@
+# black.toml configuration file
+
+# The line length for the formatted code
+line-length = 88
+
+# Skip string normalization
+skip-string-normalization = false
+
+# Enable or disable checking for trailing commas
+target-version = ['py39']
