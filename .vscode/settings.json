@@ -1,4 +1,23 @@
 {
     "editor.formatOnSave": true,
-    "editor.formatOnSaveMode": "file"
+    "editor.rulers": [
+        {
+            "color": "#256",
+            "column": 99
+        }
+    ],
+    "pylint.path": [
+        "~/global_env/pylint"
+    ],
+    "black-formatter.args": [
+        "--line-length=119"
+    ],
+    "flake8.args": [],
+    "[python]": {
+        "editor.defaultFormatter": "ms-python.black-formatter",
+        "editor.formatOnSave": true,
+        "editor.codeActionsOnSave": {
+            "source.organizeImports": "explicit"
+        },
+    },
 }

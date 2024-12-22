@@ -1,7 +1,1 @@
-
-
-if("hello"):
-    True
-
-def my_function(): 
-    print("2")
+print("ciao mama ti voglio bene")

@@ -1,0 +1,12 @@
+[flake8]
+# Set the maximum line length to 99 characters
+max-line-length = 119
+
+# Ignore specific error codes (e.g., E501 for line length issues)
+ignore = E501
+
+# Specify the list of directories or files to check (defaults to all Python files)
+exclude = .git, __pycache__, build, dist
+
+# Enable additional checks or disable others
+select = E,F,W,C90  # Select specific categories of errors (E - errors, F - fatal, etc.)

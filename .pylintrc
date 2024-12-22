@@ -1,0 +1,21 @@
+[MESSAGES CONTROL]
+# Disable specific messages by their message IDs (you can add more IDs as needed)
+disable=C0114,C0116  # Disable missing module and function docstring warnings
+
+[REPORTS]
+# Whether to output a report (can be set to "no" or "simple")
+output-format=text
+
+[LOGGING]
+# Define logging format
+logging-format=new
+
+[DESIGN]
+# Maximum number of arguments for functions/methods
+max-args=5
+
+[FORMAT]
+# Maximum line length
+max-line-length=100
+
+
